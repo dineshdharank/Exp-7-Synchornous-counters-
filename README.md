@@ -54,9 +54,9 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 
-### PROGRAM 
+## PROGRAM 
 
-## UPCOUNTER:
+### UPCOUNTER:
 
 ~~~
 module upCounters(clk, A);
