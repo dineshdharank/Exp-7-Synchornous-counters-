@@ -88,27 +88,39 @@ endmodule
 
 
 
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+### RTL REALIZATION:
 
+## UPCOUNTER
 
+![291951201-c283eff0-f438-409e-a830-d3f19628f97e](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/532ba250-03cc-47e6-8339-ed75b0618255)
 
+## DOWNCOUNTER
 
-
-
+![291954208-53eb74d4-fa80-492e-9d7a-813135622b79](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/b4eb8ad7-7ffd-4f65-a376-665cf17377de)
 
 
 
 ### TIMING DIGRAMS FOR COUNTER  
 
+## UPCOUNTER
 
+![291953656-d2839b5b-07e0-4c88-b78e-c36641f63b8a](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/739f6967-15a8-484b-a815-410f5235a90a)
+
+## DOWNCOUNTER
+
+![291955299-75cbd884-cb5e-4d59-a459-f7f20073e15f](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/1647ed12-cbe5-4b19-96cc-c5eddd23d885)
 
 
 
 ### TRUTH TABLE 
 
+## UPCOUNTER
 
+![291951723-c2b57cce-4b4d-426b-aa7a-1241118a14cf](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/b9f19c8a-f734-4034-abb6-26e9a2965023)
 
+## DOWNCOUNTER
 
+![291954819-e72783bc-a5a2-4f57-b2d2-a06399205dba](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/06cb501c-8d5b-4320-a68e-11b9c207f17c)
 
 
 ### RESULTS 
