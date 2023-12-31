@@ -1,7 +1,7 @@
 ## Name: Dineshdharan.K
 ## Reg: 23014095
 
-# Exp-6-Synchornous-counters - up counter and down counter 
+# Experiment 6 Synchornous counters up counter and down counter 
 
 ### AIM: To implement 4 bit up and down counters and validate  functionality.
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
@@ -78,14 +78,14 @@ Click on "File" > "New" > "Verification/Debugging Files" > "University Program V
 ### UPCOUNTER:
 
 ~~~
-module upCounters(clk, A);
+module upCounters(clk, a);
 input clk;
-output reg [2:0]A;
+output reg[3:0]a;
 always @(posedge clk)
 begin
-   A[2]=(((A[0])&(A[1]))^A[2]);
-   A[1]=(A[0])^A[1];
-   A[0]=A[0]^1;
+a[2]=(a[1]&a[0])^a[2];
+a[1]=(a[0]^a[1]);
+a[0]= ^a[0];
 end
 endmodule
 ~~~
@@ -93,15 +93,15 @@ endmodule
 ### DOWNCOUNTER:
 
 ~~~
-module downCounters(clk,A);
+module downCounters(clk,a);
 input clk;
-output reg [2:0]A;
+output reg[3:0]a;
 always @(posedge clk)
 begin
-   A[2]=(((~A[0])&(~A[1]))^A[2]);
-   A[1]=(~A[0])^A[1];
-   A[0]=1^A[0];
-end 
+a[2]=(~a[1]&~a[0])^a[2};
+a[1]=(~a[0])^a[1];
+a[0]=1^a[0];
+end
 endmodule
 ~~~
 
@@ -121,27 +121,21 @@ endmodule
 
 ## TIMING DIGRAMS FOR COUNTER:  
 
-### UPCOUNTER
-
-![291953656-d2839b5b-07e0-4c88-b78e-c36641f63b8a](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/739f6967-15a8-484b-a815-410f5235a90a)
-
-### DOWNCOUNTER
-
-![291955299-75cbd884-cb5e-4d59-a459-f7f20073e15f](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/1647ed12-cbe5-4b19-96cc-c5eddd23d885)
-
+![293488172-932011d1-d2b4-4944-be5b-13783cb89f28](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/72112ccf-1186-4f72-b8e6-f50cb3bab71b)
 
 
 ## TRUTH TABLE:
 
 ### UPCOUNTER
 
-![291951723-c2b57cce-4b4d-426b-aa7a-1241118a14cf](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/b9f19c8a-f734-4034-abb6-26e9a2965023)
+![Screenshot 2023-12-31 120029](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/c66cb015-0ac4-41ab-883f-6edf4c95f192)
+
 
 ### DOWNCOUNTER
 
-![291954819-e72783bc-a5a2-4f57-b2d2-a06399205dba](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/06cb501c-8d5b-4320-a68e-11b9c207f17c)
+![Screenshot 2023-12-31 120129](https://github.com/dineshdharank/Exp-7-Synchornous-counters-/assets/145980096/411c9f1e-1712-40fa-9095-2bf08334afa7)
 
 
 ## RESULTS: 
 
-By this we have verified the truth table of 4-bit up-counter using verilog.
+Thus synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
